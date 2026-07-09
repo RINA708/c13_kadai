@@ -3,21 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>花畑の朝</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div style="position: relative; width: 960px; height: 534px;">
-  <img src="./bg0.png" style="position: absolute; left: 0; top: 0;">
+<div class="stage">
 
-  <img src="./butterfly.gif" style="position: absolute; left: 160px; top: 411px; width: 68px;">
-  <img src="./butterfly.gif" style="position: absolute; left: 377px; top: 354px; width: 70px;">
-  <img src="./butterfly.gif" style="position: absolute; left: 589px; top: 434px; width: 65px;">
+  <img class="bg" src="bg0.png" alt="花畑と家の風景">
+  <img class="foo" src="foo.gif" alt="小さな生きもの">
+  <img class="bg" id="front" src="bg1.png" alt="手前の背景">
 
-  <div style="position: absolute; left: 24px; top: 40px; background: rgba(255, 255, 255, 0.7); padding: 10px 18px; color: crimson; font-weight: bold; font-size: 22px; line-height: 1.7;">
+  <p class="message">
     ぽかぽか陽気の穏やかな朝<br>
     花畑では、蝶々がのんびり飛んでいます
-  </div>
+  </p>
+
+  <img class="butterfly" src="butterfly.gif" alt="蝶" style="left: 250px; top: 380px;">
+  <img class="butterfly" src="butterfly.gif" alt="蝶" style="left: 480px; top: 320px;">
+  <img class="butterfly" src="butterfly.gif" alt="蝶" style="left: 700px; top: 420px;">
+
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
