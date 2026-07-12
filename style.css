@@ -1,12 +1,18 @@
 .stage { position: relative; width: 960px; }
 
-.bg { position: absolute; left: 0; top: 0; width: 960px; }
+
+.bg {
+  position: absolute;
+  left: 0; top: 0;
+  width: 960px;
+  pointer-events: none;
+}
+
 
 .foo {
   position: absolute;
-  left: 500px;
-  top: 230px;
-  width: 60px;
+  width: 32px;
+  z-index: 2;
   transition: left 0.8s, top 0.8s;
 }
 
@@ -14,10 +20,13 @@
   position: absolute;
   left: 30px; top: 10px; margin: 0;
   color: crimson; font-size: 24px; font-weight: bold;
+  z-index: 3;
+  pointer-events: none;
 }
 
 .butterfly {
   position: absolute;
   width: 80px;
+  z-index: 4;
   transition: left 0.8s, top 0.8s;
 }
