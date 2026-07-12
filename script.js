@@ -2,7 +2,7 @@
 var ROOM_LEFT   = 360;
 var ROOM_RIGHT  = 830;
 var ROOM_TOP    = 190;
-var ROOM_BOTTOM = 300;
+var ROOM_BOTTOM = 300; 
 
 var FOO_SIZE = 32;   
 
